@@ -33,8 +33,12 @@ public class MyDate{
 	}
 	
 	public boolean IsLeapYear(int year) {
-		//please return true if the year is a leap year
-		//return false if the year is not a leap year
+		if (year%4==0) {
+			return true;//Returns True if it is a leap year
+		}
+		else { 
+			return false;//returns false if it is not a leap year
+		}
 	}
 	
 	
