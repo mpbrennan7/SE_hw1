@@ -11,6 +11,9 @@ public class StockSimulation{
 		Stock s = new Stock("Facebook", "FB", 178.33, date);
 		
 		System.out.println(date.GetMyDateString());
+		System.out.println(date.GetMyDateString1());
+		System.out.println(date.GetMyDateString2());
+		System.out.println(date.GetMyDate());
 		
 		//please check that every get method in the MyDate class is correct
 	}
