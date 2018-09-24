@@ -45,10 +45,16 @@ public class MyDate{
 		String myDateString = month+"/"+day+"/"+year;
 		return myDateString;
 	}
-	/*
+	
 	public String GetMyDateString2() {
 		//please return a date string in the format of dd/mm/yyyy
-	}*/
+		String date = GetMyDateString();
+		String month = date.substring(4, 6);
+		String year = date.substring(0,4);
+		String day = date.substring(6, 8);
+		String myDateString = day+"/"+month+"/"+year;
+		return myDateString;
+	}
 	
 	public boolean IsLeapYear(int year) {
 		if (year%4==0) {
