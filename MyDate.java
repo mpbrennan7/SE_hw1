@@ -35,11 +35,17 @@ public class MyDate{
 		//please return a date string in the format yyyymmdd
 		return Integer.toString(my_date_);
 	}
-	/*
+	
 	public String GetMyDateString1() {
 		//please return a date string in the format of mm/dd/yyyy 
+		String date = GetMyDateString();
+		String month = date.substring(4, 6);
+		String year = date.substring(0,4);
+		String day = date.substring(6, 8);
+		String myDateString = month+"/"+day+"/"+year;
+		return myDateString;
 	}
-	
+	/*
 	public String GetMyDateString2() {
 		//please return a date string in the format of dd/mm/yyyy
 	}*/
