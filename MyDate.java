@@ -22,7 +22,7 @@ public class MyDate{
 		
 		String my_date_string = split_date[2] + split_date[0] + split_date[1];
 		
-		System.out.println("Converting date from String to Integer: " + my_date_string);
+		//System.out.println("Converting date from String to Integer: " + my_date_string);
 		
 		my_date_ = Integer.parseInt(my_date_string);
 	}
